@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+html{
+	min-height: 100vh;
+}
+
+html, body {
+	height: 100vh;
+}
+
+body {
+	background-image: url("../assets/img/index-background.jpeg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: 1920px 1080px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.custom-container {
+	background-color: rgba(255,255,255,0.5);
+	min-height: 78vh;
+	opacity: 97%;
+	/* background-color: #FAFAFA !important; */
+}
+
+.col-center-full {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.col-center-vert {
+	vertical-align: middle;
+}
+
+.grade-input {
+	margin: auto;
+	width: 50px;
+}
+
+.listing-icon {
+	padding: 0 5px;
+	font-size: 25px;
+}
+
+.listing-icon:hover {
+	color: white;
+	background-color: black;
+}
+
+
+
+
+
